@@ -3,19 +3,22 @@ h1 a {
     font-family: 'Caveat', cursive;
 }
 body {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 .page-header {
     background-color: #36F0E7;
-    margin-top: 10;
+    margin-top: 0;
+    margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-
 }
 
 .content {
@@ -33,21 +36,42 @@ h1, h2, h3, h4 {
 .save {
     float: right;
 }
-.post-form textarea, .post-form input {
+.post-form textarea,
+.post-form input {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
     color: #ffffff;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
 }
 
-.post {
-    margin-bottom: 70px;
-}
 
 .post h1 a, .post h1 a:visited {
     color: #107B76;
+}
+.post h2 a,
+.post h2 a:visited {
+    color: #36F0E7;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-default,
+.btn-default:visited {
+    color: #36F0E7;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-default:hover {
+    color: #FFFFFF;
+    background-color: #C25100;
 }
